@@ -17,8 +17,15 @@ h2 {
     font-family: 'Fredoka One', cursive;
     text-align: center;
 }
+p {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
 
-p, li {
+li {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     line-height: 2;
