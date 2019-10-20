@@ -2,42 +2,8 @@ html {
   color: #703ecc;
   font-size: 10px;
   font-family: 'Rubik', sans-serif;
-  background-image: url("../images/background_p.jpg");
-  background-repeat: repeat;
+  background-color: #ffffff;
 }
-
-/*for navigation*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(45deg, #d7f337, #13f1e6);
-    border-radius: 15px;
-}
-
-li {
-    float: left
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #19e9f8
-  }
-  
-  .active {
-    background-color: rgb(34, 234, 248);
-  }
-
-/*heading*/
 
 h1 {
     color: #703ecc;
@@ -88,19 +54,15 @@ dd {
 /*header; I've changed the border color, and added margin and padding using rem*/
 
 header {
-    padding: 1rem;
+    padding: 2rem;
+    border-bottom: 0.3rem solid #703ecc;
     line-height: 1rem;
     margin: 3rem;
 } 
 
 main {
-    padding: 2rem;
+    padding: 2.5rem;
     max-width: 600px;
-}
-
-section {
-    padding: 1rem;
-    color: #5419c2
 }
 
 body {
@@ -112,12 +74,6 @@ body {
     border-radius: 30px;
     font-size: 16px;
     font-family: 'Marvel', sans-serif;
-}
-
-footer {
-    text-align: center;
-    color: #999999;
-    padding: 1rem;
 }
 
 /*img and figcaption*/
@@ -138,7 +94,7 @@ a:link {
 }
 
 a:visited {
-    color: rgb(111, 42, 175);
+    color: rgb(42, 171, 175);
 }
 
 a:hover {
