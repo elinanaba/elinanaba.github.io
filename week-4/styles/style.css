@@ -13,16 +13,17 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-family: 'Fredoka One', cursive;
     text-align: left;
+    margin-left: 20px;
 }
 p {
     font-size: 1.8rem;
     font-family: 'Rubik', sans-serif;
     line-height: 2;
     letter-spacing: 1px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 /*list*/
 
