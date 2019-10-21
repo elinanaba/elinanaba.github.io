@@ -162,10 +162,10 @@ a:active {
 }
 
 .btn-3d.cyan {
-	background-color: #919191;
-	box-shadow: 0 0 0 1px #919191 inset,
-				0 0 0 2px rgba(255,255,255,0.15) inset,
-				0 8px 0 0 rgba(80, 83, 83, 0.6),
+	background-color: #b8b8b8;
+	box-shadow: 0 0 0 1px #b8b8b8 inset,
+				0 0 0 2px rgba(255, 255, 255, 0.329) inset,
+				0 8px 0 0 rgba(105, 105, 105, 0.6),
 				0 8px 0 1px rgba(0,0,0,.4),
 				0 8px 8px 1px rgba(0,0,0,0.5);
 }
