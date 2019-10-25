@@ -21,6 +21,8 @@ h2 {
 
 h3.text-center {
     text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
 }
 
 p {
@@ -123,8 +125,24 @@ img {
     max-width: 100%;
 }
 
-figure {
-    text-align: center;
+/*working on for week 5*/
+
+section#first figure {
+    float: left;
+    padding-right: 2em;
+}
+
+section#second image {
+    clear: left;
+}
+
+.intro {
+
+    position: relative;
+    top: 10px;
+    font-size: 1em;
+    color: #d86f9b;
+    
 }
 
 /*link effects*/
