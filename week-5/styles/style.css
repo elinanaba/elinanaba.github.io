@@ -1,9 +1,8 @@
 html {
-  color: #ffaf1c;
+  color: #4e3f4a;
   font-size: 10px;
   font-family: 'Rubik', sans-serif;
-  background-image: url("../images/background_egg2.jpg");
-  background-repeat: repeat;
+  background-color: #a75980;
 }
 
 h1 {
@@ -62,7 +61,7 @@ dd {
 
 header {
     color: #f7fffd;
-    background-color: #ffaf1c;
+    background-color: #e03f90;
     margin: 3rem;
     padding: 1.4rem;
     font-size: 4.5rem;
@@ -74,7 +73,7 @@ header {
 
 main {
     padding: 2.5rem;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 article {
@@ -90,25 +89,23 @@ section {
 }
 
 body {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    background-color: rgb(253, 249, 226);
-    padding: 0 20px 20px 20px;
-    border: 8px solid #5f5f5f;
-    border-radius: 30px;
+    background-color: rgb(253, 226, 239);
+    padding: 20px 20px 20px 20px;
     font-size: 16px;
     font-family: 'Marvel', sans-serif;
 }
 
 aside {
-    border: 2px inset #ffaf1c;
+    border: 2px inset #cc4e9c;
     border-radius: 1rem;
     margin-top: 4rem;
     margin-left: 8rem;
     margin-right: 8rem;
     padding: 20px;
     font-size: 2rem;
-    background-color: #f8e48a;
+    background-color: #f88ac7;
 }
 
 footer {
@@ -132,17 +129,15 @@ section#first figure {
     padding-right: 2em;
 }
 
-section#second image {
+section#second {
     clear: left;
 }
 
 .intro {
-
     position: relative;
     top: 10px;
     font-size: 1em;
-    color: #d86f9b;
-    
+    color: #d86f9b;  
 }
 
 /*link effects*/
