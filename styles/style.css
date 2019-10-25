@@ -1,3 +1,5 @@
+/*I added background image wirh repeat value. I made image using photoshop, so there's no worry for copyright!*/
+
 html {
   color: #703ecc;
   font-size: 10px;
@@ -37,7 +39,7 @@ li a {
     background-color: rgb(34, 234, 248);
   }
 
-/*heading*/
+/*heading; I changed heading color and margin value*/
 
 h1 {
     color: #703ecc;
@@ -86,7 +88,7 @@ dd {
     margin-left: 40px;
 }
 
-/*header; I've changed the border color, and added margin and padding using rem*/
+/*I've changed the border color, and added margin and padding using rem for header, section, body.*/
 
 header {
     padding: 1rem;
