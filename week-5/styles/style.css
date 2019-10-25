@@ -127,6 +127,7 @@ img {
 section#first figure {
     float: left;
     padding-right: 2em;
+    color: #fa78da;
 }
 
 section#second {
@@ -136,8 +137,32 @@ section#second {
 .intro {
     position: relative;
     top: 10px;
+    left: 20px;
     font-size: 1em;
     color: #d86f9b;  
+}
+
+.bit-columns {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 4px dashed #f88ac7;
+}
+
+/*I set the colmuns to two depending the browser's size
+when it's between 321 to 600px, it is printed two column.
+when it's less than 321px, it returned just one column. */
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .bit-columns {
+        column-count: 2;
+        column-rule: 4px dotted #f88ac7;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bit-columns {
+        all: unset;
+    }
 }
 
 /*link effects*/
