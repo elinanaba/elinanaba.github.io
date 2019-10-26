@@ -139,7 +139,9 @@ section#second {
     top: 10px;
     left: 20px;
     font-size: 1em;
-    color: #d86f9b;  
+    font-style: italic;
+    color: #d86f9b;
+    padding-right: 15px;
 }
 
 .bit-columns {
