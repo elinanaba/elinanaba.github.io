@@ -122,7 +122,11 @@ img {
     max-width: 100%;
 }
 
-/*working on for week 5*/
+/******************
+working on for week 5
+I gave the id for section1, 2 and added float property to section 1.
+Also, added clear property to section 2 for removing float before I used.
+*******************/
 
 section#first figure {
     float: left;
@@ -150,9 +154,16 @@ section#second {
     column-rule: 4px dashed #f88ac7;
 }
 
-/*I set the colmuns to two depending the browser's size
+.source {
+    word-break:break-all;
+    font-size: 0.8em;
+}
+
+/******************
+I set the colmuns to two depending the browser's size
 when it's between 321 to 600px, it is printed two column.
-when it's less than 321px, it returned just one column. */
+when it's less than 321px, it returned just one column. 
+*******************/
 
 @media screen and (min-width: 321px) and (max-width: 600px) {
     .bit-columns {

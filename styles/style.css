@@ -20,8 +20,6 @@ ul {
     border-radius: 15px;
 }
 
-
-
 li {
     float: left
 }
@@ -42,12 +40,15 @@ li a {
     background-color: rgb(34, 234, 248);
   }
 
-/*I'm working on this for week5*/
+/************
+week-5 updates!
+I added display value, padding, and width. Width is for equal-width.
+*************/
 
 nav.bit112-nav {
     display: inline-block;
-    border: 1px solid #d7f337;
     padding: 5px;
+    width: 25%;
 }
 
 /*heading; I changed heading color and margin value*/
