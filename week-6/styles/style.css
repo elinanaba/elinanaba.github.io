@@ -1,0 +1,235 @@
+html {
+  color: #4e3f4a;
+  font-size: 10px;
+  font-family: 'Rubik', sans-serif;
+  background-color: #a75980;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    margin-left: 20px;
+}
+
+h3.text-center {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+/*list*/
+
+li {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+dt {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+dd { 
+    color: #6e6e6e;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+/*header; I've added text-shadow, color of box and padding using rem*/
+
+header {
+    color: #f7fffd;
+    background-color: #e03f90;
+    margin: 3rem;
+    padding: 1.4rem;
+    font-size: 4.5rem;
+    border-radius: 2rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
+} 
+
+main {
+    padding: 2.5rem;
+    max-width: 1000px;
+}
+
+article {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+section {
+    color: #494949;
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(253, 226, 239);
+    padding: 20px 20px 20px 20px;
+    font-size: 16px;
+    font-family: 'Marvel', sans-serif;
+}
+
+aside {
+    border: 2px inset #cc4e9c;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: #f88ac7;
+}
+
+footer {
+    text-align: center;
+    color: #999999;
+    padding: 1rem;
+}
+
+/*img and figcaption*/
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/******************
+working on for week 5
+I gave the id for section1, 2 and added float property to section 1.
+Also, added clear property to section 2 for removing float before I used.
+*******************/
+
+section#first figure {
+    float: left;
+    padding-right: 2em;
+    color: #fa78da;
+}
+
+section#second {
+    clear: left;
+}
+
+.intro {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 1em;
+    font-style: italic;
+    color: #d86f9b;
+    padding-right: 15px;
+}
+
+.bit-columns {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 4px dashed #f88ac7;
+}
+
+.source {
+    word-break:break-all;
+    font-size: 0.8em;
+}
+
+/******************
+I set the colmuns to two depending the browser's size
+when it's between 321 to 600px, it is printed two column.
+when it's less than 321px, it returned just one column. 
+*******************/
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .bit-columns {
+        column-count: 2;
+        column-rule: 4px dotted #f88ac7;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bit-columns {
+        all: unset;
+    }
+}
+
+/*link effects*/
+
+a:link {
+    color: rgb(236, 132, 240);
+}
+
+a:visited {
+    color: rgb(175, 106, 42);
+}
+
+a:hover {
+    color: #fa78da; background-color: #fafa24; text-decoration: none;
+}
+
+a:active {
+    color: #f8f88a; background-color: #5419c2; text-decoration: none; 
+}
+
+/*this is for button*/
+
+.btn-3d {
+	position: relative;
+	display: inline-block;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+	padding: 20px 60px;
+	color: white;
+	margin: 20px 10px 10px;
+	border-radius: 6px;
+	text-align: center;
+	transition: top .01s linear;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+.btn-3d.cyan:hover   {background-color: rgb(189, 189, 189);}
+
+.btn-3d:active {
+	top: 9px;
+}
+
+.btn-3d.cyan {
+	background-color: #b8b8b8;
+	box-shadow: 0 0 0 1px #b8b8b8 inset,
+				0 0 0 2px rgba(255, 255, 255, 0.329) inset,
+				0 8px 0 0 rgba(105, 105, 105, 0.6),
+				0 8px 0 1px rgba(0,0,0,.4),
+				0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.btn-3d.cyan:active {
+	box-shadow: 0 0 0 1px #919191 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 0 0 1px rgba(0,0,0,0.4);
+}
+div.button-box {
+    text-align: center;
+}
