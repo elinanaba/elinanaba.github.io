@@ -13,6 +13,7 @@ article {
 aside {
     flex: 2;
     flex-basis: 280px;
+    padding-left: 10px;
 }
 
   img {
@@ -20,7 +21,12 @@ aside {
       display: block;
       
   }
-  
+  #float {
+    float: left;
+    padding-right: 15px;
+
+  }
+
   .logo {
     font-size: 200%;
     padding: 50px 20px;
