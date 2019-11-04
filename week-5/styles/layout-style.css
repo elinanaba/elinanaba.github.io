@@ -13,7 +13,6 @@ article {
 aside {
     flex: 2;
     flex-basis: 280px;
-    padding-left: 10px;
 }
 
   img {
