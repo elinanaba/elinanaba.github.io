@@ -115,7 +115,7 @@ aside {
 
 footer {
     text-align: center;
-    color: #999999;
+    color: #505050;
     padding: 1rem;
 }
 
@@ -186,19 +186,19 @@ when it's less than 321px, it returned just one column.
 /*link effects*/
 
 a:link {
-    color: rgb(236, 132, 240);
+    color: rgb(0, 36, 155);
 }
 
 a:visited {
-    color: rgb(175, 106, 42);
+    color: #333333;
 }
 
 a:hover {
-    color: #9c3081; background-color: #fafa24; text-decoration: none;
+    color: #69014f; background-color: #ffffff; text-decoration: none;
 }
 
 a:active {
-    color: #f8f88a; background-color: #5419c2; text-decoration: none; 
+    color: #ffffff; background-color: #333333; text-decoration: none; 
 }
 
 /*this is for button*/
