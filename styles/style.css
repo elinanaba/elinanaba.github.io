@@ -34,11 +34,11 @@ li a {
   }
   
   li a:hover:not(.active) {
-    background-color: #19e9f8
+    background-color: #4e4e4e
   }
   
   .active {
-    background-color: rgb(34, 234, 248);
+    background-color: rgb(97, 97, 97);
   }
 
 /************
@@ -55,14 +55,14 @@ nav.bit112-nav {
 /*heading; I changed heading color and margin value*/
 
 h1 {
-    color: #703ecc;
+    color: #321844;
     font-size: 4.5rem;
     font-family: 'Fredoka One', cursive;
     text-align: center;
 }
 
 h2 {
-    color: #777777;
+    color: #353535;
     font-size: 2.5rem;
     font-family: 'Fredoka One', cursive;
     text-align: left;
@@ -133,7 +133,7 @@ body {
 
 footer {
     text-align: center;
-    color: #999999;
+    color: #3f3f3f;
     padding: 1rem;
 }
 
@@ -151,17 +151,17 @@ figure {
 /*link effects*/
 
 a:link {
-    color: rgb(236, 132, 240);
+    color: rgb(34, 47, 107);
 }
 
 a:visited {
-    color: rgb(111, 42, 175);
+    color: rgb(89, 14, 160);
 }
 
 a:hover {
-    color: #33cc85; background-color: #fafa24; text-decoration: none;
+    color: #073466; background-color: #fafa24; text-decoration: none;
 }
 
 a:active {
-    color: #f8f88a; background-color: #5419c2; text-decoration: none; 
+    color: #ffffe2; background-color: #320b7a; text-decoration: none; 
 }
