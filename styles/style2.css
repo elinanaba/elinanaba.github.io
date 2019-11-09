@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  color: #302d3a;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../images/background_p.jpg");
+  background-repeat: repeat;
+}
+
+/*for navigation*/
+
+dt {
+    color: #073466;
+    font-size: 2.6rem;
+    line-height: 3;
+    font-display: 'Heebo', sans-serif;
+}
+
+dd {
+    font-size: 2rem;
+}
+
+
+li {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: #703ecc;
+    font-size: 4.5rem;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #777777;
+    font-size: 2.5rem;
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+    margin-left: 40px;
+}
+p {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+/*list*/
+
+
+header {
+    padding: 1rem;
+    line-height: 1rem;
+    margin: 3rem;
+} 
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+}
+
+section {
+    padding: 1rem;
+    color: #5419c2
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: rgb(242, 226, 253);
+    padding: 0 20px 20px 20px;
+    border: 8px solid #30106b;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: #999999;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+}
+
+/*link effects*/
+
+a:link {
+    color: rgb(34, 47, 107);
+}
+
+a:visited {
+    color: rgb(89, 14, 160);
+}
+
+a:hover {
+    color: #073466; background-color: #fafa24; text-decoration: none;
+}
+
+a:active {
+    color: #ffffe2; background-color: #320b7a; text-decoration: none; 
+}
