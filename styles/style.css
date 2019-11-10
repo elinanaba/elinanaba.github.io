@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html {
   color: #703ecc;
@@ -59,7 +60,7 @@ nav.bit112-nav {
 h1 {
     color: #321844;
     font-size: 4.5rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
