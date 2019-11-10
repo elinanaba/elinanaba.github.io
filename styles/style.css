@@ -34,11 +34,13 @@ li a {
   }
   
   li a:hover:not(.active) {
-    background-color: #4e4e4e
+    background-color: #4e4e4e;
+    color: white;
   }
   
   .active {
     background-color: rgb(97, 97, 97);
+    color: white;
   }
 
 /************
