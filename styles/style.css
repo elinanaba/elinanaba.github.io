@@ -59,7 +59,7 @@ nav.bit112-nav {
 
 h1 {
     color: #321844;
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -67,7 +67,7 @@ h1 {
 h2 {
     color: #353535;
     font-size: 2.5rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 40px;
 }
@@ -132,13 +132,13 @@ body {
     border: 8px solid #30106b;
     border-radius: 30px;
     font-size: 16px;
-    font-family: 'Marvel', sans-serif;
 }
 
 footer {
     text-align: center;
     color: #3f3f3f;
     padding: 1rem;
+    font-family: 'Marvel', sans-serif;
 }
 
 /*img and figcaption*/
