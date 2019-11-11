@@ -49,7 +49,7 @@ dt {
 }
 
 dd { 
-    color: #6e6e6e;
+    color: #313131;
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     line-height: 2;
@@ -110,7 +110,7 @@ aside {
 
 footer {
     text-align: center;
-    color: #999999;
+    color: #444444;
     padding: 1rem;
 }
 
@@ -181,19 +181,19 @@ when it's less than 321px, it returned just one column.
 /*link effects*/
 
 a:link {
-    color: rgb(236, 132, 240);
+    color: rgb(105, 31, 66);
 }
 
 a:visited {
-    color: rgb(175, 106, 42);
+    color: rgb(73, 42, 14);
 }
 
 a:hover {
-    color: #fa78da; background-color: #fafa24; text-decoration: none;
+    color: #303030; background-color: #f8f832; text-decoration: none;
 }
 
 a:active {
-    color: #f8f88a; background-color: #5419c2; text-decoration: none; 
+    color: #ffffff; background-color: #2e2e2e; text-decoration: none; 
 }
 
 /*this is for button*/
