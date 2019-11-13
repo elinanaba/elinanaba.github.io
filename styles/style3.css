@@ -54,6 +54,13 @@ h2 {
     color: #303030;
 }
 
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #303030;
+}
+
 
 .bigbox {
     width: 1000px;
@@ -81,6 +88,12 @@ body {
     padding: 100px;
     line-height: unset;
     letter-spacing: unset;
+}
+
+.thirdS {
+    margin: 0 auto;
+    padding: 100px;
+    line-height: unset;
 }
 
 .reportGroup {
