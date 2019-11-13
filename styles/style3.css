@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+
+html {
+    background: linear-gradient(270deg, #148165, #5d8114, #146381, #cc840a);
+    background-size: 800% 800%;
+    -webkit-animation: graHeader 30s ease infinite;
+    -moz-animation: graHeader 30s ease infinite;
+    -o-animation: graHeader 30s ease infinite;
+    animation: graHeader 30s ease infinite;
+}
+
+@-webkit-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header {
+    color: #ffffff;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+
+.bigbox {
+    width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 9px solid #919191;
+    margin-bottom: 60px;
+}
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.firstS {
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.secondS {
+    margin: 0 auto;
+    padding: 100px;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+.reportGroup {
+    margin: 0 auto;
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+dt {
+    color: #25405a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+dd { 
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    color: #292929;
+    padding: 1rem;
+    font-family: 'Marvel', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
