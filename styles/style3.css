@@ -103,6 +103,14 @@ body {
     font-size: 20px;
 }
 
+.screenshot {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
 dt {
     color: #25405a;
     font-family: 'Montserrat', sans-serif;
@@ -117,6 +125,12 @@ dd {
     line-height: 2;
     letter-spacing: 1px;
 }
+
+.siteName {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
 
 footer {
     text-align: center;
