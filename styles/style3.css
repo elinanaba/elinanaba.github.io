@@ -173,3 +173,8 @@ footer {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+a:hover {
+    background-color: rgb(18, 104, 97);
+    color: #ffffff;
+  }
