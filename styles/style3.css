@@ -127,12 +127,14 @@ dd {
 }
 
 .siteName {
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font-size: 1.5rem;
 }
 
-.featuresWeb {
-    padding: 10px;
+.FontsInDD {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
 }
 
