@@ -82,7 +82,7 @@ header {
     color: #ffffff;
     margin: auto;
     margin-top: 50px;
-    width: unset;
+    width: 100%;
 }
 
 body {
