@@ -53,12 +53,16 @@ h2 {
     color: #25405a;
     border-bottom: 5px solid #c0c0c0;
     padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -80,8 +84,8 @@ body {
 p {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    padding-left:40px;
-    padding-right:40px;
+    padding-left:20px;
+    padding-right:20px;
     line-height: 2;
     color: #303030;
 }
@@ -92,17 +96,17 @@ p {
     font-size: 18px;
 }
 
-.thirdS {
-    margin: 0 auto;
-    padding: 100px;
-    line-height: unset;
-    letter-spacing: unset;
-}
-
 .secondS {
     margin: 0 auto;
-    padding: 100px;
+    padding: 50px;
     line-height: unset;
+}
+
+.thirdS {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+    letter-spacing: unset;
 }
 
 .reportGroup {
