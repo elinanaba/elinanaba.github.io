@@ -177,14 +177,6 @@ dd {
     width: 800px;
 }
 
-a:link {
-    color: rgb(48, 48, 48);
-}
-
-a:visited {
-    color: rgb(74, 11, 129);
-}
-
 a:hover {
     color: #073466; background-color: #fafa24; text-decoration: none;
 }
