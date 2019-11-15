@@ -80,7 +80,6 @@ nav.bit112-nav {
 
 header {
     color: #ffffff;
-    padding: 20px;
     margin: auto;
     margin-top: 50px;
     width: unset;
@@ -161,6 +160,7 @@ h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 40px;
 }
 
 h2 {
