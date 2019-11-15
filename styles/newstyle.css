@@ -118,6 +118,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     line-height: 2;
     letter-spacing: 1px;
+    color: #353535;
 }
 
 .bigbox {
@@ -147,7 +148,7 @@ figure {
 }
 
 dt {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 2;
     letter-spacing: 1px;
@@ -156,10 +157,18 @@ dt {
 
 dd { 
     color: #6e6e6e;
-    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     line-height: 2;
     letter-spacing: 1px;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
 a:link {
