@@ -86,13 +86,13 @@ header {
 }
 
 body {
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
     font-size: 16px;
 }
 
 main {
-    max-width: 1000px;
+    max-width: 1050px;
 }
 
 section {
