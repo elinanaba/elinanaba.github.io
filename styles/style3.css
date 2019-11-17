@@ -144,6 +144,11 @@ ol {
     line-height: 2;
 }
 
+ul {
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
 dt {
     color: #25405a;
     font-family: 'Montserrat', sans-serif;
