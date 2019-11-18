@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    background: linear-gradient(270deg, #148165, #5d8114, #146381, #cc840a);
+    background-size: 800% 800%;
+    -webkit-animation: graHeader 30s ease infinite;
+    -moz-animation: graHeader 30s ease infinite;
+    -o-animation: graHeader 30s ease infinite;
+    animation: graHeader 30s ease infinite;
+}
+
+@-webkit-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header {
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #25405a;
+    border-bottom: 5px solid #c0c0c0;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bigbox {
+    width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 9px solid #919191;
+    margin-bottom: 60px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+/*max width set up 11.15*/
+
+main {
+    max-width: 1000px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding-left:20px;
+    padding-right:20px;
+    line-height: 2;
+    color: #303030;
+}
+
+.firstS {
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.secondS {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+}
+
+.thirdS {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+.reportGroup {
+    margin: 0 auto;
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.screenshot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.image2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+table, th, td {
+    border: 1px solid #858585;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    border: 5px solid #c0c0c0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 20px;
+}
+
+.tableColor {
+    background-color: #dfdedb;
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    line-height: 2;
+}
+
+ul {
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+dt {
+    color: #25405a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+dd { 
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.siteName {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.FontsInDD {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    color: #292929;
+    padding: 1rem;
+    font-family:  'Open Sans', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a:hover {
+    background-color: rgb(18, 104, 97);
+    color: #ffffff;
+  }
+
