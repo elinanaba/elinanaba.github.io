@@ -138,7 +138,7 @@ p {
 }
 
 table, th, td {
-    border: 1px solid #5d8114;
+    border: 1px solid #858585;
     border-collapse: collapse;
 }
 
@@ -147,11 +147,13 @@ th, td {
 }
 
 table {
-    border: 5px solid #5d8114;
-    width: 100%;
+    border: 5px solid #c0c0c0;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 30px 20px;
+}
+
+.tableColor {
+    background-color: #dfdedb;
 }
 
 ol {
