@@ -137,6 +137,23 @@ p {
     width: 800px;
 }
 
+table, th, td {
+    border: 1px solid #5d8114;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    border: 5px solid #5d8114;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 ol {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
