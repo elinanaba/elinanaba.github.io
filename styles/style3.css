@@ -209,3 +209,10 @@ a:hover {
     background-color: rgb(18, 104, 97);
     color: #ffffff;
   }
+
+a:link {
+    color: #146381;
+}
+a:visited {
+    color: #25405a;
+}
