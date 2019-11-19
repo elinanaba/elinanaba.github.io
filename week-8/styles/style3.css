@@ -66,6 +66,15 @@ h3 {
     margin-right: 20px;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 .bigbox {
     width: 1000px;
     background-color: #ffffff;
@@ -171,6 +180,7 @@ ol, ul {
     font-size: 1.2rem;
     margin-left: 50px;
     line-height: 2;
+    color: #303030;
 }
 
 dt {
