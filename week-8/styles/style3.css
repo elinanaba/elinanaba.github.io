@@ -166,15 +166,10 @@ table {
     background-color: #dfdedb;
 }
 
-ol {
+ol, ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     margin-left: 50px;
-    line-height: 2;
-}
-
-ul {
-    font-size: 1.4rem;
     line-height: 2;
 }
 
