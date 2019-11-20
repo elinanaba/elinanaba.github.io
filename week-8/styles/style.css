@@ -126,6 +126,10 @@ p {
     letter-spacing: unset;
 }
 
+.textColor {
+    color: #146381;
+}
+
 .sources {
     margin: 0 auto;
     padding: 50px;
