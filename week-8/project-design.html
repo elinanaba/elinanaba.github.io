@@ -3,7 +3,7 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <link href="styles/style3.css" rel="stylesheet" type="text/css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
         <title>Project Design</title>
 </head>
 <body>
@@ -22,6 +22,7 @@
             <dt>Target Audience</dt>
             <dd>Koreans who are currently living in the U.S. or Canada and who are not living in the U.S. but want to order at an online shop in the U.S.
                 <br>All those are interested in buying products at a lower price.
+                <br>I’m considering the range of age from high school students to those in their 60s. So I will use simple, easy words and not have complex designs to attract people of broad ages.
             </dd>
             <dt>Main Features</dt>
             <dd>Photos and price information of the products currently on sale will be provided, links to purchase the products, and online coupons will be uploaded as well.</dd>
@@ -30,6 +31,11 @@
                 <br>People will get a lot of useful information from the site and enjoy shopping with the information provided.
             </dd>
             <dt>Limiting Factors</dt>
+            <dd>Most of the sales information will be provided is online stores, so the main visitors will be users who are used to shopping the Internet. Such people are usually expected to have a fast Internet connection.
+                    Due to the characteristics of users who want to check sales information frequently wherever they are, mobile chrome or Safari users will be expected as a high connection rate.
+                    However, people will prefer to check more detail from desktops when they purchase items that are expensive or want to see more accurate colors.
+                    Therefore, it’s necessary to use a responsive design that is printed well in both devices.
+                    Since the target audience is Koreans, I will use Korean as the main language. English will also be used to post the product information, but Korean will be used mainly on the Website.</dd>
         </dl>
         <h2>Development Guide</h2>
         <h3>Site Structure</h3>
@@ -52,7 +58,23 @@
         <h3>Visual Representation of Site Structure</h3>
         <img src="images/site-structure.jpg" alt="map of the site" title="Structure of the website" class="image">
         <h3>Navigation Elements</h3>
-        <p>I'll put a navigation bar vertically on the left side that links to all of the pages in the website like zara.com.</p>
+        <p>I'll put a navigation bar vertically on the left side that links to all of the pages in the website like zara.com.<br>
+            I'm considering using the following icons on the navigation bar.<br>
+            <div class=iconGroup>
+            <figure><img src="images/box.png" alt="Icon of shipping box" title="Shipping box" class="icons">
+                <figcaption>Shipping box icon for "Deals" category</figcaption>
+            </figure>
+            <figure><img src="images/coupon.png" alt="Icon of coupons" title="Coupons" class="icons">
+                <figcaption>Coupon icon for "Coupons" category</figcaption>
+            </figure>
+            <figure><img src="images/shopping-bag.png" alt="icon of free sample bag" title="Sample bag" class="icons">
+                <figcaption>Free sample icon for "Freebies" category</figcaption>
+            </figure>
+            <figure><img src="images/speech-bubble.png" alt="icon of speech bubble" title="Speech bubble" class="icons">
+                <figcaption>Speech bubble icon for "Community"</figcaption>
+            </figure>
+            </div>
+        </p>
         <h4>Navigation Structure</h4>
         <ul>
             <li>Home</li>
@@ -78,13 +100,68 @@
             </li>
         </ul>
         <h3>HTML Template</h3>
-        <p></p>
+        <p>I will use <a href="example.html" title="HTML template">the following html</a> on my website.</p>
         <h3>Wireframe Site</h3>
+        <p><a href="wireframes.html" title="Wireframe">These wireframes</a> let you navigate the basic structure of my site.</p>
         <h2>Design Guide</h2>
         <h3>Color Palette</h3>
+        <table class="colorPalette">
+            <tr>
+                <td class="t1">Dark Slate Gray #4E5258</td>
+            </tr>
+            <tr>
+                <td class="t2">Pale Goldenrod #E3DAAA</td>
+            </tr>
+            <tr>
+                <td class="t3">Medium Aquamarine #5FBA9C</td>
+            </tr>
+            <tr>
+                <td class="t4">Light Sea Green #179A6F</td>
+            </tr>
+            <tr>
+                <td class="t5">Tomato #F8545A</td>
+            </tr>
+        </table>
+        <p>I will use the following colors. High-saturation colors such as tomatoes and sea green will be used as small points. The main color is dark slate grey.</p>
         <h3>Media Assets</h3>
+        <h4>General Guidelines</h4>
+        <ul>
+            <li>Images optimized as JPG using the Photoshop save for web feature to determine the best choice. Photos generally saved as JPG (image-of-product.jpg)</li>
+            <li>I'll use the icons for the navigation bar as svg or gif format (icon-deals.gif, icon-deals.svg)</li>
+            <li>The images of products are taken from their site, but mark the copyright</li>
+            <li>I’ll design the logo using the Photoshop</li>
+        </ul>
         <h3>Styles Guide</h3>
+        <h5>Background</h5>
+        <p>Background is white <div class="tag">{background-color: #FFFFFF;}</div></p>
+        <h5>Default font</h5>
+        <p>Since I will use Korean as the main language, I will use a Korean-based font such as Nanum Gothic and Myeongjo.<br>
+            Text is dark slate gray, 14 pixels.<div class="tag">p {<br>font-family: 'Nanum Gothic', sans-serif;<br>font-size: 14px;<br> color: #4E5258;<br>}</div></p>
+        <h5>Header</h5>
+        <p>The header section is 220px tall, it will displayed on the top of each pages with the logo. The logo will be placed on the left side, and there’s a search bar in the middle.
+            <div class="tag">header {<br>height: 220px;<br>background-image: url("../images/logo.png”);<br>background-repeat: no-repeat;<br>background-position: top left;<br>background-size: 140px 80px;<br>background-position-x: 10%;<br>background-position-y: 50%;<br>}</div>
+        </p>
+        <h5>Navigation</h5>
+        <p>The main navigation is 450px tall and 150px wide, positioned on the left side below the header. The background color is same as header; #FFFFFF, and the font color is #4E5258.
+        <div class="tag">nav {<br>width: 150px;<br>height: 450px;<br>float: left;<br>color: #003366;<br>background-color: #FFFFFF;<br>}</div>
+        </p>
+        <h5>Main</h5>
+        <p>The main section is 520px wide and 270px tall, and it will display the photos of shopping news using slideshow.<br>
+            I'll make a separate div for the slide show and give a CSS in it.
+            <div class="tag">main {<br>width: 520px;<br>height: 270px;<br>}</div>
+        </p>
+        <h5>Section and Aside</h5>
+        <p>Both are 260px wide and 140px tall.<div class="tag">section {<br>width: 260px;<br>height: 140px;<br>}<br>aside {<br>width: 260px;<br>height: 140px;<br>}</div></p>
+        <h5>Links</h5>
+        <p>Links will be light sea green. On hover, they will have tomatoes background and white colored texts.<div class="tag">a {<br>color: #179A6F;<br>}<br>a:hover {<br>background-color: #F8545A;<br>color: #FFFFFF;<br>}</div></p>
         <h3>Layout Sketch</h3>
+        <p><img src="images/sketch.jpg" alt="layout hand sketch" title="Hand sketch for design" class="image"></p>
+    </section>
+    <section class="sources">
+        <h2>Sources</h2>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        <br>Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        <br>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </section>
     <footer>
         <a href="../index.html">Back to the main page</a><br>

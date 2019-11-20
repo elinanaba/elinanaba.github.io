@@ -42,13 +42,11 @@ header {
 
 h1 {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color: #ffffff;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     color: #25405a;
     border-bottom: 5px solid #c0c0c0;
@@ -59,7 +57,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     color: #25405a;
     margin-left: 20px;
@@ -67,19 +64,25 @@ h3 {
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     color: #25405a;
     margin-left: 20px;
     margin-right: 20px;
 }
 
+h5 {
+    font-size: 1.2rem;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px dashed #4E5258;
+}
 
 .bigbox {
     width: 1000px;
     background-color: #ffffff;
     padding: 20px;
-    border-left: 9px solid #919191;
+    border-left: 10px solid #919191;
     margin-bottom: 60px;
 }
 
@@ -87,15 +90,16 @@ body {
     width: 1000px;
     margin: 0 auto;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 /*max width set up 11.15*/
+/*font size is 16px*/
 
 main {
     max-width: 1000px;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     padding-left:20px;
     padding-right:20px;
@@ -122,20 +126,10 @@ p {
     letter-spacing: unset;
 }
 
-.reportGroup {
+.sources {
     margin: 0 auto;
-    padding: 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.screenshot {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
+    padding: 50px;
+    line-height: unset;
 }
 
 .image {
@@ -144,39 +138,87 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    max-width: 100%;
 }
 
-.image2 {
+.icons {
+    margin-top: 10px;
+    width: 50px;
+}
+
+.iconGroup {
+    width: 850px;
+    margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    /* if I use display: inline-block in the subordinator,
+    * then I have to use text-align to put in center
+    * But If I add display: flex; to set same height, It didn't work
+    * Then I have to add justify-content: center;
+    */
 }
 
-table, th, td {
+figure {
+    width: 15%;
+    text-align: center;
     border: 1px solid #858585;
-    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
 }
 
-th, td {
-    padding: 15px;
+figcaption {
+    margin: 15px;
+    font-size: 1rem;
 }
 
 table {
-    border: 5px solid #c0c0c0;
-    font-family: 'Montserrat', sans-serif;
-    margin: 30px 20px;
+    width: 850px;
+    margin: 20px;
+    padding: 0;
 }
 
-.tableColor {
-    background-color: #dfdedb;
+td {
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+}
+
+.t1 {
+    color: #ffffff;
+    background-color: #4E5258;
+}
+.t2 {
+    color: #4E5258;
+    background-color: #E3DAAA;
+}
+.t3 {
+    color: #ffffff;
+    background-color: #5FBA9C;
+}
+.t4 {
+    color: #ffffff;
+    background-color: #179A6F;
+}
+.t5 {
+    color: #ffffff;
+    background-color: #F8545A;
+}
+
+.tag {
+    margin: 20px;
+    padding: 10px 10px 10px 40px;
+    line-height: 2;
+    color: #4E5258;
+    background-color: #E3DAAA;
+    display: flex;
 }
 
 ol, ul {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     margin-left: 50px;
     line-height: 2;
@@ -185,7 +227,6 @@ ol, ul {
 
 dt {
     color: #25405a;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     letter-spacing: 1px;
     padding: 40px;
@@ -193,21 +234,8 @@ dt {
 
 dd { 
     color: #303030;
-    font-family: 'Montserrat', sans-serif;
     line-height: 2;
     letter-spacing: 1px;
-}
-
-.siteName {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.FontsInDD {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.5rem;
 }
 
 footer {
@@ -222,5 +250,12 @@ footer {
 a:hover {
     background-color: rgb(18, 104, 97);
     color: #ffffff;
-  }
+  }    
+    
+    /* add responsive css for body*/
 
+    /*review*
+    * I've used table and figure, but the <div> was much easier to give style through CSS
+    * Using "%" is easy for responsive design than fixed size like px
+    * Before to copy & paste, understanding a base concept is very important
+    */
