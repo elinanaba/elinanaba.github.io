@@ -1,9 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+/*font-family: 'Nanum Myeongjo', serif;*/
+/*font-family: 'Nanum Gothic', sans-serif;*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+html {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 header {
-    height: 220px;
-    background-image: url("../images/logo.png"); 
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size:140px 80px;
-    background-position-x: 10%;
-    background-position-y: 50%;
+    height: 140px;
+}
+
+.sidenav {
+ width: 300px;
+ height: 450px;
+ font-size: 2.5rem;
+ color:#484848;
+ position: fixed;
+ z-index: 1;
+ top: 200px;
+ left: 50px;
+ overflow-x: hidden;
+ padding: 10px 0;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #179A6F;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: rgb(23, 91, 154);
+}
+
+main {
+    height: 270px;
+    margin-left: 300px;
+    font-size: 3rem;
+    padding: 0 10px;
+    border: 4px solid #878787;
+}
+
+.sectionContainer {
+    margin: 0 auto;
+}
+
+article {
+    width: 260px;
+    height: 140px;
+    margin-left: 300px;
+    font-size: 2rem;
+    padding: 0 10px;
+    border: 4px solid #878787;
+    float: left;
+}
+
+aside {
+    width: 260px;
+    height: 140px;
+    margin-left: 590px;
+    font-size: 2rem;
+    padding: 0 10px;
+    border: 4px solid #878787;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+    border: 4px solid #878787;
 }
