@@ -222,6 +222,13 @@ td {
     display: flex;
 }
 
+.designPreview {
+    width: 100%;
+}
+.designPreview:hover {
+    content: url("../images/mockupwithgrid.jpg");
+}
+
 ol, ul {
     font-size: 1.2rem;
     margin-left: 50px;
