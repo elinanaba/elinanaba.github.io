@@ -39,8 +39,7 @@
         </dl>
         <h2>Development Guide</h2>
         <h3>Site Structure</h3>
-        <p>
-            <ul>
+        <ul>
             <li>Root Directory
                 <ul>
                     <li><div class="textColor">images directory</div> - contains jpgs, ice, gifs, and png</li>
@@ -54,7 +53,6 @@
                 </ul>
             </li>
         </ul>
-        </p>
         <h3>Visual Representation of Site Structure</h3>
         <img src="images/site-structure.jpg" alt="map of the site" title="Structure of the website" class="image">
         <h3>Navigation Elements</h3>
@@ -142,18 +140,15 @@
         <p>Since I will use Korean as the main language, I will use a Korean-based font such as Nanum Gothic and Myeongjo.<br>
             Text is dark slate gray, 14 pixels.<div class="tag">p {<br>font-family: 'Nanum Gothic', sans-serif;<br>font-size: 14px;<br> color: #4E5258;<br>}</div></p>
         <h5>Header</h5> <!--change the ccs-->
-        <p>The header section is 140px tall, it will displayed on the top of each pages with the logo. The logo will be placed on the left side, and there’s a search bar in the middle.
-            <div class="tag">header {<br>height: 140px;<br>background-image: url("../images/logo.png”);<br>background-repeat: no-repeat;<br>background-position: top left;<br>background-size: 140px 80px;<br>background-position-x: 10%;<br>background-position-y: 50%;<br>}</div>
-        </p>
+        <p>The header section is 140px tall, it will displayed on the top of each pages with the logo. The logo will be placed on the left side, and there’s a search bar in the middle.</p>
+            <div class="tag"><p>header {<br>height: 140px;<br>background-image: url("../images/logo.png”);<br>background-repeat: no-repeat;<br>background-position: top left;<br>background-size: 140px 80px;<br>background-position-x: 10%;<br>background-position-y: 50%;<br>}</p></div>
         <h5>Navigation</h5>
-        <p>The main navigation is 450px tall and 300px wide, positioned on the left side below the header. The background color is same as header; #FFFFFF, and the font color is #000000.
-        <div class="tag">nav {<br>width: 300px;<br>height: 450px;<br>font-size: 2.5rem;<br>color:#000000;<br>position: fixed;<br>z-index: 1;<br>top: 200px;<br>left: 80px;<br>overflow-x: hidden;<br>padding: 10px 0;<br>}</div>
-        </p>
+        <p>The main navigation is 450px tall and 300px wide, positioned on the left side below the header. The background color is same as header; #FFFFFF, and the font color is #000000.</p>
+        <div class="tag"><p>nav {<br>width: 300px;<br>height: 450px;<br>font-size: 2.5rem;<br>color:#000000;<br>position: fixed;<br>z-index: 1;<br>top: 200px;<br>left: 80px;<br>overflow-x: hidden;<br>padding: 10px 0;<br>}</p></div>
         <h5>Main</h5>
         <p>The main section is 270px tall and 824px wide. It will display the photos of shopping news using slideshow.<br>
-            I'll make a separate div for the slide show and give a CSS in it.
-            <div class="tag">main {<br>width: 824px;<br>height: 270px;<br>margin-left: 300px;<br>font-size: 3rem;<br>padding: 0 10px;<br>}</div>
-        </p>
+            I'll make a separate div for the slide show and give a CSS in it.</p>
+            <div class="tag"><p>main {<br>width: 824px;<br>height: 270px;<br>margin-left: 300px;<br>font-size: 3rem;<br>padding: 0 10px;<br>}</p></div>
         <h5>Article and aside</h5>
         <p>Both are 400px wide and 200px tall.<div class="tag">article {<br>width: 400px;<br>height: 200px;<br>margin-left: 300px;<br>font-size: 2rem;<br>padding: 0 10px;<br>float: left;<br>}<br>aside {<br>width: 400px;<br>height: 200px;<br>margin-left: 724px;<br>font-size: 2rem;<br>padding: 0 10px;<br>}</div></p>
         <h5>Footer</h5>
