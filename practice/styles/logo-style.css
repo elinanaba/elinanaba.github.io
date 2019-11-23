@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.gim {
+    position: absolute;
+    top: 130px;
+    width: 200px;
+    left: 100px;
+    animation: gim 2.2s;
+}
+
+.bap {
+    position: absolute;
+    top: 210px;
+    width: 200px;
+    left: 310px;
+    animation: bap 2.7s;
+}
+
+.food {
+    position: absolute;
+    top: 360px;
+    width: 150px;
+    left: 150px;
+    animation: food 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gim {
+    from {
+        margin-top: -50%;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+@keyframes bap {
+    from {
+        margin-left: 100%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+    }  
+}
+
+@keyframes food {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+footer {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    color: #3f3f3f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.food:hover {
+    animation-play-state: paused;
+}
