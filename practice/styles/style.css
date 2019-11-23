@@ -48,6 +48,16 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 1.8rem;
+    color: #25405a;
+    border-bottom: 5px solid #c0c0c0;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
 .bigbox {
     width: 1000px;
     background-color: #ffffff;
