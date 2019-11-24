@@ -1,89 +1,277 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap'); /*font-family: 'Questrial', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); /*font-family: 'Raleway', sans-serif;*/
+
 /*font-family: 'Nanum Myeongjo', serif;*/
 /*font-family: 'Nanum Gothic', sans-serif;*/
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
 html {
     font-size: 14px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-header {
-    height: 140px;
+* {
+    box-sizing: border-box;
 }
 
-.logo-img {
-    padding: 50px;
+/***********************************************Header*/
+
+header {
+    padding: 15px;
+    width: 100%;
+    height: 170px;
 }
+
+.hide-h1 {
+    font-size: 10px; 
+    position: absolute; 
+    top: -9999px; 
+    left: -9999px;
+}
+
+/***********************************************Logo*/
 
 .logo {
-    width: 170px;
+    width: 340px;
+    overflow: hidden;
+    padding: 30px;
 }
+
+.logo-deal {
+    width: 60%;
+    animation: deal 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 2; 
+}
+
+.logo-mani {
+    width: 40%;
+    margin-left: 50px;
+    animation: mani 2.2s;
+}
+
+@keyframes deal {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes mani {
+    0% { transform: translateX(-40px); opacity: 0;}
+    100% { transform: translateX(0); } 
+}
+
+/***********************************************Nav*/
 
 .sidenav {
-    width: 300px;
-    height: 450px;
-    line-height: 1.5em;
+    top: 220px;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    text-align: right;
     font-size: 2.5rem;
-    color:#000000;
     position: fixed;
-    z-index: 1;
-    top: 200px;
-    left: 80px;
-    overflow-x: hidden;
-    padding: 10px 0;
+    height: 100%;
+    overflow: auto;
     list-style-type: none;
+    line-height: 45%;
 }
 
-.sidenav a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.sidenav a{
     display: block;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
 }
 
 .sidenav a:hover {
-    color: rgb(16, 136, 98);
+    background-color: rgb(175, 45, 31);
+    color: #ffffff;
 }
 
-main {
-    width: 824px;
-    height: 270px;
+/*********************************************Slideshow***/
+
+.slideshow {
+    width: 75%;
+    height: 400px;
     margin-left: 300px;
     font-size: 3rem;
-    padding: 0 10px;
-    border: 4px solid #878787;
+    border: 1px solid #3a3a3a;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; /**/
 }
+
+.slides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/*********************************************Sections***/
 
 .sectionContainer {
-    margin: 0 auto;
+    margin-top: 20px;
 }
-
-article {
-    width: 400px;
-    height: 200px;
+.main-deals{
+    width: 36.8%;
     margin-left: 300px;
+    margin-right: 20px;
     font-size: 2rem;
     padding: 0 10px;
-    border: 4px solid #878787;
     float: left;
 }
-
-aside {
-    width: 400px;
-    height: 200px;
-    margin-left: 724px;
+.main-news{
+    width: 36.8%;
     font-size: 2rem;
+    overflow: hidden;
     padding: 0 10px;
-    border: 4px solid #878787;
 }
+
+/*********************************************Main-clear***/
+
+.to-clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*********************************************Text-Styles***/
+
+h2 {
+    padding: 0 10px 20px 10px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+
+/*********************************************Footer***/
 
 footer {
     text-align: center;
-    padding: 20px 0px;
-    border: 4px solid #878787;
+    padding: 50px 20px;
+    border-top: 1px solid #3a3a3a;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*********************************************Media***/
+
+@media screen and (max-width: 700px) {
+    .logo {
+        width: 40%;
+        padding: 0;
+    }
+    .logo-mani {
+        margin-left: 24px;
+    }
+    
+    .sidenav {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: unset;
+    }
+    .sidenav a {
+        float: left;
+    }
+    div.slideshow {
+        margin-left: 0;
+        width: 100%;
+    }
+    div.main-deals {
+        margin-left: 0;
+        width: 100%;
+    }
+    div.main-news {
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
 }
