@@ -98,6 +98,16 @@ li a:focus {
     background-color: rgb(175, 45, 31);
     color: #ffffff;   
 }
+/*********************************************DealsBoard***/
+
+.deal-board {
+    width: 75%;
+    height: 600px;
+    margin-left: 300px;
+    font-size: 2rem;
+    border: 1px solid #3a3a3a;
+    box-sizing: border-box; 
+}
 
 /*********************************************Slideshow***/
 
