@@ -68,7 +68,7 @@ header {
     top: 220px;
     margin: 0;
     padding: 0;
-    width: 18%;
+    width: 17%;
     text-align: right;
     font-size: 2.5rem;
     position: fixed;
@@ -101,9 +101,9 @@ li a:focus {
 /*********************************************DealsBoard***/
 
 .deal-board {
-    width: 75%;
+    width: 65%;
     height: 600px;
-    margin-left: 300px;
+    margin-left: 20%;
     font-size: 2rem;
     border: 1px solid #3a3a3a;
     box-sizing: border-box; 
@@ -114,7 +114,7 @@ li a:focus {
 .slideshow {
     width: 75%;
     height: 400px;
-    margin-left: 300px;
+    margin-left: 20%;
     font-size: 3rem;
     border: 1px solid #3a3a3a;
     box-sizing: border-box;
@@ -206,15 +206,15 @@ li a:focus {
     margin-top: 20px;
 }
 .main-deals{
-    width: 36.8%;
-    margin-left: 300px;
+    width: 32%;
+    margin-left: 20%;
     margin-right: 20px;
     font-size: 2rem;
     padding: 0 10px;
     float: left;
 }
 .main-news{
-    width: 36.8%;
+    width: 32%;
     font-size: 2rem;
     overflow: hidden;
     padding: 0 10px;
