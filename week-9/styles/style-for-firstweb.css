@@ -296,10 +296,14 @@ footer {
 }
 
 /*********************************************icon***/
-.icon {
-    width: 1.2em;
-    padding: 10px 10px 0 0;
+
+[class^="icon"] {
+    width: 50px;
+    position: relative;
+    margin-top: 10px;
 }
+
+/************************************************/
 .board-name {
     padding: 0.2em 0.4em 0.4em 0.4em;
     color: #3a3a3a;
