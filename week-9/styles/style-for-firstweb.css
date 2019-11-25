@@ -113,7 +113,7 @@ li a:focus {
 
 .slideshow {
     width: 75%;
-    height: 400px;
+    height: 610px;
     margin-left: 20%;
     font-size: 3rem;
     border: 1px solid #3a3a3a;
@@ -122,8 +122,8 @@ li a:focus {
     overflow: hidden; /**/
 }
 
-.slides {
-    display: none;
+img {
+    width:100%
 }
 
 .prev, .next {
@@ -150,16 +150,6 @@ li a:focus {
     background-color: rgba(0,0,0,0.8);
 }
 
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -177,6 +167,11 @@ li a:focus {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+
+.dot-container {
+    margin-left: 10%;
+    text-align: center;
 }
 
 .active, .dot:hover {
