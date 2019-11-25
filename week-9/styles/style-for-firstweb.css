@@ -83,7 +83,7 @@ ul {
 
 li a{
     display: block;
-    width: 40%;
+    width: 80%; /**/
     color: rgb(0, 0, 0);
     padding: 16px;
     text-decoration: none;
