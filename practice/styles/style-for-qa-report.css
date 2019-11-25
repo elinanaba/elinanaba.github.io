@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    background: linear-gradient(270deg, #148165, #5d8114, #146381, #cc840a);
+    background-size: 800% 800%;
+    -webkit-animation: graHeader 30s ease infinite;
+    -moz-animation: graHeader 30s ease infinite;
+    -o-animation: graHeader 30s ease infinite;
+    animation: graHeader 30s ease infinite;
+}
+
+@-webkit-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes graHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header {
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #25405a;
+    border-bottom: 5px solid #c0c0c0;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 1.7rem;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px dotted #c0c0c0;
+}
+
+.small-dt {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.small-dd {
+    padding-right: 10px;
+}
+
+.bigbox {
+    width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 10px solid #919191;
+    margin-bottom: 60px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*max width set up 11.15*/
+/*font size is 16px*/
+
+main {
+    max-width: 1000px;
+}
+
+p {
+    margin: 0;
+    padding-left:20px;
+    padding-right:20px;
+    line-height: 2;
+    color: #303030;
+}
+
+.firstS {
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.textColor {
+    color: #146381;
+}
+
+.sources {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.icons {
+    margin-top: 10px;
+    width: 50px;
+}
+
+figure {
+    width: 15%;
+    text-align: center;
+    border: 1px solid #858585;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+figcaption {
+    margin: 15px;
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+    margin-left: -20px;
+    padding: 0;
+    border-collapse: collapse;
+}
+.tfs {
+    font-size: 1rem;
+}
+th, td {
+    padding: 10px;
+    max-width: 100%;
+    border: 1px solid #303030;
+}
+
+th {
+    background-color: #e1ebdd;
+}
+
+ol, ul {
+    font-size: 1.2rem;
+    margin-left: 50px;
+    line-height: 2;
+    color: #303030;
+}
+
+dt {
+    color: #25405a;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+dd { 
+    color: #303030;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    font-family:  'Open Sans', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a:hover {
+    background-color: rgb(18, 104, 97);
+    color: #ffffff;
+  }    
+    
+    /* add responsive css for body*/
+
+    /*review*
+    * I've used table and figure, but the <div> was much easier to give style through CSS
+    * Using "%" is easy for responsive design than fixed size like px
+    * Before to copy & paste, understanding a base concept is very important
+    */
