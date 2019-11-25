@@ -1,0 +1,21 @@
+html {
+    font-size: 16px;
+    background-color: deeppink;
+}
+
+.gif {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.font {
+    font-size: 99px;
+    animation: human 0.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes human {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
