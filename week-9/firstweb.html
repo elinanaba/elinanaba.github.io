@@ -19,14 +19,7 @@
             <img class="logo-mani" src="images/logo-mani.svg" alt="the second logo image">
         </a>
     </div>
-    <nav class="sidenav">
-        <ul>
-            <li><a href="deals.html">Deals</a></li>
-            <li><a href="coupons.html">Coupons</a></li>
-            <li><a href="freebies.html">Freebies</a></li>
-            <li><a href="community.html">Community</a></li>
-        </ul>
-    </nav>
+    <div w3-include-html="nav.html"></div>
 </header>
 <main>
     <div class="slideshow">
@@ -64,6 +57,6 @@
     &copy;Dealmani 2019, License
     <br><a href="../index.html">Back to the main page</a>
 </footer>
-<script src="main.js"></script>
+<script src="main.js">includeHTML();</script>
 </body>
 </html>
