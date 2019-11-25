@@ -74,20 +74,29 @@ header {
     position: fixed;
     height: 100%;
     overflow: auto;
+}
+
+ul {
     list-style-type: none;
     line-height: 45%;
 }
 
-.sidenav a{
+li a{
     display: block;
     color: rgb(0, 0, 0);
     padding: 16px;
     text-decoration: none;
+    list-style: none;
 }
 
-.sidenav a:hover {
+li a:hover {
     background-color: rgb(175, 45, 31);
     color: #ffffff;
+}
+
+li a:focus {
+    background-color: rgb(175, 45, 31);
+    color: #ffffff;   
 }
 
 /*********************************************Slideshow***/
