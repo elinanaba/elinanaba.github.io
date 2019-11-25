@@ -105,7 +105,6 @@ li a:focus {
     height: 600px;
     margin-left: 20%;
     font-size: 2rem;
-    border: 1px solid #3a3a3a;
     box-sizing: border-box; 
 }
 
@@ -225,7 +224,7 @@ img {
 
 /*********************************************Text-Styles***/
 
-h2 {
+.main-h2 {
     padding: 0 10px 20px 10px;
     font-size: 1.8rem;
     font-weight: lighter;
@@ -296,7 +295,14 @@ footer {
     }
 }
 
-
+/*********************************************icon***/
 .icon {
-    width: 50px;
+    width: 1.2em;
+    padding: 10px 10px 0 0;
+}
+.board-name {
+    padding: 0.2em 0.4em 0.4em 0.4em;
+    color: #3a3a3a;
+    border-bottom: 5px solid #3a3a3a;
+    margin: 0;
 }
