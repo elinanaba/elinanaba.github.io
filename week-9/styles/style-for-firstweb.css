@@ -275,15 +275,15 @@ footer {
     .sidenav a {
         float: left;
     }
-    div.slideshow {
+    .slideshow {
         margin-left: 0;
         width: 100%;
     }
-    div.main-deals {
-        margin-left: 0;
+    .main-deals {
+        margin-left:unset;
         width: 100%;
     }
-    div.main-news {
+    .main-news {
         width: 100%;
     }
   }
