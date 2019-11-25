@@ -300,12 +300,14 @@ footer {
 [class^="icon"] {
     width: 50px;
     position: relative;
-    margin-top: 10px;
+    top: 10px;
+    margin-right: 10px;
 }
 
 /************************************************/
+
 .board-name {
-    padding: 0.2em 0.4em 0.4em 0.4em;
+    padding: 15px 10px;
     color: #3a3a3a;
     border-bottom: 5px solid #3a3a3a;
     margin: 0;
