@@ -373,9 +373,14 @@ footer a:hover {
         text-align: unset;
         margin: unset;
         font-size: 1.4rem;
+        background-color: #c5fa25;
     }
     .sidenav a {
         float: left;
+    }
+    
+    ul {
+        margin: unset;
     }
 
     .slideshow {
