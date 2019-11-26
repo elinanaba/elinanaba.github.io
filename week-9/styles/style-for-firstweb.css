@@ -251,10 +251,12 @@ footer {
 /*********************************************Media***/
 
 @media screen and (max-width: 700px) {
+    
     .logo {
         width: 40%;
         padding: 0;
     }
+
     .logo-mani {
         margin-left: 24px;
     }
@@ -270,11 +272,13 @@ footer {
     .sidenav a {
         float: left;
     }
+
     .slideshow {
         margin-left: 0;
         width: 100%;
         height: 100%;
     }
+
     .main-deals {
         margin-left:unset;
         margin-right:unset;
@@ -289,12 +293,13 @@ footer {
         width: 20px;
     }
 
-    .board-name {
+    .deal-board {
         margin-left: unset;
         margin-right: unset;
         width: 100%;
         top: 24%;
     }
+
     .dot-container {
         margin-left: unset;
         text-align: center;
