@@ -92,12 +92,12 @@ li a{
 }
 
 li a:hover {
-    background-color: rgb(175, 45, 31);
+    background-color: rgb(218, 236, 116);
     color: #ffffff;
 }
 
 li a:focus {
-    background-color: rgb(175, 45, 31);
+    background-color: rgb(218, 236, 116);;
     color: #ffffff;   
 }
 /*********************************************DealsBoard***/
