@@ -80,6 +80,7 @@ header {
 ul {
     list-style-type: none;
     line-height: 45%;
+    padding-inline-start: 0;
 }
 
 li a{
@@ -248,6 +249,29 @@ footer {
     width: 100%;
 }
 
+/*********************************************icon***/
+
+[class^="icon"] {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.icon-coupons {
+    top: 15px;
+}
+
+/**********************************************Board**/
+
+.board-name {
+    font-family: 'Muli', sans-serif;;
+    padding: 15px 10px;
+    color: #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+    margin: 0;
+}
+
 /*********************************************Media***/
 
 @media screen and (max-width: 700px) {
@@ -255,7 +279,7 @@ footer {
     header {
         height: auto;
     }
-    
+
     .logo {
         width: 40%;
         padding: 0;
@@ -273,6 +297,7 @@ footer {
         position: relative; /**/
         text-align: unset;
         margin: unset;
+        font-size: 1.4rem;
     }
     .sidenav a {
         float: left;
@@ -316,27 +341,4 @@ footer {
       text-align: center;
       float: none;
     }
-}
-
-/*********************************************icon***/
-
-[class^="icon"] {
-    width: 50px;
-    position: relative;
-    top: 10px;
-    margin-right: 10px;
-}
-
-.icon-coupons {
-    top: 15px;
-}
-
-/**********************************************Board**/
-
-.board-name {
-    font-family: 'Muli', sans-serif;;
-    padding: 15px 10px;
-    color: #3a3a3a;
-    border-bottom: 2px solid #3a3a3a;
-    margin: 0;
 }
