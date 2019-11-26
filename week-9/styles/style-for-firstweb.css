@@ -116,7 +116,6 @@ li a:focus {
     height: auto;
     margin-left: 20%;
     font-size: 3rem;
-    border: 1px solid #3a3a3a;
     box-sizing: border-box;
     position: relative;
     overflow: hidden; /**/
