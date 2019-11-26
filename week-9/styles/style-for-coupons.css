@@ -283,7 +283,8 @@ footer a:hover {
     .responsive {
         width: 100%;
     }
-    [class^="icon"] {
-        width: 20px;
+    
+    header {
+        background-color: #ddf738;
     }
 }
