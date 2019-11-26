@@ -113,7 +113,6 @@ li a:focus {
 
 .deal-board {
     width: 75%;
-    height: 600px;
     margin-left: 20%;
     font-size: 2rem;
     box-sizing: border-box; 
@@ -123,7 +122,7 @@ li a:focus {
 
 .gallery {
     border: 1px solid #3a3a3a;
-    margin-top: 15px;
+    margin-top: 5%;
 }
 
 .product-image {
@@ -169,116 +168,39 @@ li a:focus {
 }
 /*Why it doesn't work?*/
 
-.responsive {
-    padding: 0 6px;
+/*********************************************Coupons***/
+
+.column {
     float: left;
-    width: 24.99999%;
+    width: 25%;
+    padding: 0 10px;
 }
 
-/*********************************************Slideshow***/
-
-.slideshow {
-    width: 75%;
-    height: auto;
-    margin-left: 20%;
-    font-size: 3rem;
-    box-sizing: border-box;
-    position: relative;
-    overflow: hidden; /**/
+.row {
+    margin: 0 -5px;
 }
 
-img {
-    width:100%;
-    height: auto;
+/*To clear after the first column*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
+.card {
+    box-shadow: 0 4px 8px 0 #b1b1b1;
     padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-
-.numbertext {
-    color: #000000;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot-container {
-    margin-left: 10%;
     text-align: center;
+    background-image: linear-gradient(-45deg, rgb(238, 240, 124), rgb(171, 248, 98));
 }
 
-.active, .dot:hover {
-    background-color: #717171;
+.card-name {
+    font-size: 2.2rem;
 }
 
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-/*********************************************Sections***/
-
-.sectionContainer {
-    margin-top: 20px;
-}
-.main-deals{
-    width: 37%;
-    margin-left: 20%;
-    margin-right: 1%;
-    font-size: 2rem;
-    padding: 0 10px;
-    float: left;
-}
-.main-news{
-    width: 37%;
-    font-size: 2rem;
-    overflow: hidden;
-    padding: 0 10px;
+.promocode {
+    color: #ff3c00;
+    font-weight: 900;
 }
 
 /*********************************************Main-clear***/
@@ -343,12 +265,13 @@ footer a:hover {
 
 /**********************************************Board**/
 
+/*h2 style*/
 .board-name {
     font-family: 'Muli', sans-serif;;
     padding: 15px 10px;
     color: #3a3a3a;
     border-bottom: 2px solid #3a3a3a;
-    margin: 0;
+    margin: 0 0 15px 0;
 }
 
 /*********************************************Media***/
@@ -381,22 +304,6 @@ footer a:hover {
     .sidenav a {
         float: left;
     }
-
-    .slideshow {
-        margin-left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .main-deals {
-        margin-left:unset;
-        margin-right:unset;
-        width: 100%;
-    }
-
-    .main-news {
-        width: 100%;
-    }
     
     [class^="icon"] {
         width: 20px;
@@ -408,14 +315,14 @@ footer a:hover {
         width: 100%;
         top: 24%;
     }
-
-    .dot-container {
-        margin-left: unset;
-        text-align: center;
-    }
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
     }
   }
   
