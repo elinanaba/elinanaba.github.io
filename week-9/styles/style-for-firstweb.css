@@ -280,8 +280,20 @@ footer {
         margin-right:unset;
         width: 100%;
     }
+
     .main-news {
         width: 100%;
+    }
+    
+    [class^="icon"] {
+        width: 20px;
+    }
+
+    .board-name {
+        margin-left: unset;
+        margin-right: unset;
+        width: 100%;
+        top: 24%;
     }
     .dot-container {
         margin-left: unset;
@@ -303,6 +315,10 @@ footer {
     position: relative;
     top: 10px;
     margin-right: 10px;
+}
+
+.icon-coupons {
+    top: 15px;
 }
 
 /**********************************************Board**/
