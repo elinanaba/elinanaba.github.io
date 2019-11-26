@@ -114,56 +114,6 @@ li a:focus {
     box-sizing: border-box; 
 }
 
-/*********************************************DealsGallery***/
-
-.gallery {
-    border: 1px solid #3a3a3a;
-    margin-top: 5%;
-}
-
-.product-image {
-    width: 100%;
-    height: auto;
-}
-
-.name {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.8rem;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.price {
-    padding: 15px;
-    text-align: right;
-    font-size: 1.4rem;
-    color: #c96507;
-}
-
-.toLink {
-    margin: 15px 20px;
-    padding: 10px 15px;
-    font-size: 1.4rem;
-    text-align: center;
-    color: #3a3a3a;
-    background-color: #faf325;
-}
-
-.toLink:hover {
-    background-color: rgb(215, 243, 54);
-}
-
-.tolink:focus {
-    background-color: rgb(215, 243, 54);
-    outline: 5px solid #000000;
-}
-/*Why it doesn't work?*/
-
 /*********************************************Coupons***/
 
 .column {
@@ -187,16 +137,23 @@ li a:focus {
     box-shadow: 0 4px 8px 0 #b1b1b1;
     padding: 16px;
     text-align: center;
-    background-image: linear-gradient(-45deg, rgb(238, 240, 124), rgb(171, 248, 98));
+    background-image: url("../images/gradient.jpg");
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
 }
 
 .card-name {
     font-size: 2.2rem;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 .promocode {
-    color: #ff3c00;
+    color: #61be26;
     font-weight: 900;
+}
+p {
+    color: #3a3a3a;
 }
 
 /*********************************************Main-clear***/
@@ -300,10 +257,6 @@ footer a:hover {
     .sidenav a {
         float: left;
     }
-    
-    [class^="icon"] {
-        width: 20px;
-    }
 
     .deal-board {
         margin-left: unset;
@@ -329,5 +282,8 @@ footer a:hover {
     }
     .responsive {
         width: 100%;
+    }
+    [class^="icon"] {
+        width: 20px;
     }
 }

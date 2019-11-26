@@ -393,10 +393,6 @@ footer a:hover {
     .main-news {
         width: 100%;
     }
-    
-    [class^="icon"] {
-        width: 20px;
-    }
 
     .deal-board {
         margin-left: unset;
@@ -422,5 +418,8 @@ footer a:hover {
     }
     .responsive {
         width: 100%;
+    }
+    [class^="icon"] {
+        width: 20px;
     }
 }
