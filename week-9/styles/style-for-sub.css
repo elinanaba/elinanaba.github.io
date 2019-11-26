@@ -21,10 +21,6 @@ a {
     text-decoration: none;
 }
 
-a:focus {
-    outline: 5px solid #000000;
-}
-
 /***********************************************Header*/
 
 header {
