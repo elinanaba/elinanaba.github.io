@@ -151,8 +151,7 @@ li a:focus {
     font-size: 1.4rem;
     text-align: center;
     color: #3a3a3a;
-    border: 1px solid #858d7e;
-    background-color: #fffd7b;
+    background-color: #faf325;
 }
 
 .responsive {
