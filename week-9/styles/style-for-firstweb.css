@@ -118,8 +118,9 @@ li a:focus {
 /*********************************************DealsGallery***/
 
 .gallery {
-    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 8px 0 #b1b1b1;
     margin-top: 15px;
+    padding: 0 0 10px 0;
 }
 
 .product-image {
