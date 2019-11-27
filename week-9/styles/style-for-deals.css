@@ -311,7 +311,7 @@ footer a:hover {
         width: 100%;
     }
 
-    h2 {
+    .board-name, .name {
         font-size: 1.8rem;
     }
 
