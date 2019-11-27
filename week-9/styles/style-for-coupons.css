@@ -202,15 +202,14 @@ p {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+    background-color: rgb(215, 243, 54);
 }
 
 #myBtn {
     padding: 10px;
     margin-bottom: 5%;
     font-size: 1.2rem;
-    background-color: #faf325;
+    background-color: #dcdcdc;
 }
 
 /*********************************************Text-Styles***/
