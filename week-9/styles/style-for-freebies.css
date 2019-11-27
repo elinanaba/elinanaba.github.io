@@ -284,4 +284,14 @@ footer a:hover {
     [class^="icon"] {
         width: 35px;
     }
+
+    .card {
+        background-size: 100% 14%;
+    }
+    .card-image {
+        margin-top: 20px;
+    }
+    .name {
+        margin: 0;
+    }
 }
