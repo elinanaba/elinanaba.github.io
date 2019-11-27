@@ -197,6 +197,7 @@ li a:focus {
     width: 75%;
     height: auto;
     margin-left: 20%;
+    margin-top: 5%;
     font-size: 3rem;
     box-sizing: border-box;
     position: relative;
@@ -418,6 +419,9 @@ footer a:hover {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
+    }
+    .search {
+        margin:unset;
     }
   }
   
