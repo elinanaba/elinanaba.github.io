@@ -310,4 +310,12 @@ footer a:hover {
     .search {
         width: 100%;
     }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    [class^="icon"] {
+        width: 35px;
+    }
 }
