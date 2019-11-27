@@ -17,10 +17,9 @@ html {
     box-sizing: border-box;
 }
 
-*:focus {
+*:focus-visible {
     outline:3px solid #a0d500;
 }
-
 
 a {
     text-decoration: none;
