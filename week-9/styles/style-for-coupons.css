@@ -17,6 +17,10 @@ html {
     box-sizing: border-box;
 }
 
+*:focus {
+    outline:3px solid #a0d500;
+}
+
 a {
     text-decoration: none;
 }
@@ -29,7 +33,7 @@ header {
     height: 170px;
 }
 
-.search[type=text] {
+.search {
     width: 20%;
     float: right;
     padding: 6px;
