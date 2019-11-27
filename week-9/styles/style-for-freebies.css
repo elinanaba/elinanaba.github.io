@@ -126,6 +126,16 @@ li a:focus {
 
 .card {
     width: 100%;
+    height: 20%;
+    box-shadow: 0 4px 8px 0 #b1b1b1;
+    background-color: #ebebeb;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.name {
+    color: #61be26;
+    font-size: 2rem;
 }
 
 /*********************************************Main-clear***/
@@ -211,7 +221,6 @@ footer a:hover {
         text-align: unset;
         margin: unset;
         font-size: 1.4rem;
-        background-color: #c5fa25;
     }
 
     .sidenav a {
