@@ -44,6 +44,10 @@ header {
     font-size: 17px;
 }
 
+.search:focus {
+    outline:3px solid #e0f899;
+}
+
 .hide-h1 {
     font-size: 10px; 
     position: absolute; 
