@@ -114,6 +114,14 @@ li a:focus {
     box-sizing: border-box; 
 }
 
+.board-name {
+    font-family: 'Muli', sans-serif;;
+    padding: 0px 10px 15px 10px;
+    color: #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+    margin: 0 0 15px 0;
+}
+
 /*********************************************Coupons***/
 
 .column {
@@ -269,17 +277,6 @@ footer a:hover {
 .icon-coupons {
     top: 10px;
     width: 45px;
-}
-
-/**********************************************Board**/
-
-/*h2 style*/
-.board-name {
-    font-family: 'Muli', sans-serif;;
-    padding: 15px 10px;
-    color: #3a3a3a;
-    border-bottom: 2px solid #3a3a3a;
-    margin: 0 0 15px 0;
 }
 
 /*********************************************Media***/
