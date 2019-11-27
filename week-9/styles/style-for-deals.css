@@ -124,6 +124,7 @@ li a:focus {
 
 .deal-board {
     width: 75%;
+    height: 600px;
     margin-left: 20%;
     font-size: 2rem;
     box-sizing: border-box; 
@@ -137,31 +138,60 @@ li a:focus {
     margin: 0 0 15px 0;
 }
 
-/*********************************************SampleCard***/
+/*********************************************DealsGallery***/
 
-.card {
-    width: 100%;
-    height: 20%;
-    background-image: url("../images/gradient.jpg");
-    background-size: 100% 18%;
-    background-repeat: no-repeat;
+.gallery {
     box-shadow: 0 4px 8px 0 #b1b1b1;
-    padding: 16px;
-    margin-bottom: 15px;
+    padding: 0 0 10px 0;
 }
 
-.card-image {
-    padding: 0;
-    margin: 0;
-    margin-top: 15px;
+.product-image {
     width: 100%;
-    height: 250px;
-    overflow: hidden;
+    height: auto;
 }
 
 .name {
-    font-size: 2rem;
-    margin-top:5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.price {
+    padding: 15px;
+    text-align: right;
+    font-size: 1.4rem;
+    color: #c96507;
+}
+
+.toLink {
+    margin: 15px 20px;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #3a3a3a;
+    background-color: #faf325;
+}
+
+.toLink:hover {
+    background-color: rgb(215, 243, 54);
+}
+
+.tolink:focus {
+    background-color: rgb(215, 243, 54);
+    outline: 5px solid #000000;
+}
+/*Why it doesn't work?*/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
 
 /*********************************************Text-Styles***/
@@ -239,11 +269,10 @@ footer a:hover {
         margin: unset;
         font-size: 1.4rem;
     }
-
     .sidenav a {
         float: left;
     }
-
+    
     ul {
         margin: unset;
         line-height: 0;
@@ -256,14 +285,17 @@ footer a:hover {
         top: 24%;
     }
 
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
+    .dot-container {
+        margin-left: unset;
+        text-align: center;
+    }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
     }
     .search {
+        margin:unset;
         width: 35%;
-        margin: unset;
     }
   }
   
@@ -272,7 +304,9 @@ footer a:hover {
       text-align: center;
       float: none;
     }
-
+    .responsive {
+        width: 100%;
+    }
     .search {
         width: 100%;
     }

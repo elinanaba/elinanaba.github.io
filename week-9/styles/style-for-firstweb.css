@@ -17,10 +17,6 @@ html {
     box-sizing: border-box;
 }
 
-*:focus-visible {
-    outline:3px solid #a0d500;
-}
-
 a {
     text-decoration: none;
 }
@@ -394,10 +390,11 @@ footer a:hover {
     
     ul {
         margin: unset;
+        line-height: 0;
     }
 
     .slideshow {
-        margin-left: 0;
+        margin:0;
         width: 100%;
         height: 100%;
     }
@@ -412,21 +409,11 @@ footer a:hover {
         width: 100%;
     }
 
-    .deal-board {
-        margin-left: unset;
-        margin-right: unset;
-        width: 100%;
-        top: 24%;
-    }
-
     .dot-container {
         margin-left: unset;
         text-align: center;
     }
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+
     .search {
         margin:unset;
     }
@@ -436,8 +423,5 @@ footer a:hover {
     .sidenav a {
       text-align: center;
       float: none;
-    }
-    .responsive {
-        width: 100%;
     }
 }
