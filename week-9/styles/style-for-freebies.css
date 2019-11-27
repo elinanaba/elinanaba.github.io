@@ -164,14 +164,6 @@ li a:focus {
     margin-top:5px;
 }
 
-/*********************************************Main-clear***/
-
-.to-clear::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /*********************************************Text-Styles***/
 
 .main-h2 {
@@ -271,6 +263,10 @@ footer a:hover {
         display: block;
         margin-bottom: 20px;
     }
+    .search {
+        width: 35%;
+        margin: unset;
+    }
   }
   
   @media screen and (max-width: 400px) {
@@ -279,6 +275,9 @@ footer a:hover {
       float: none;
     }
     .responsive {
+        width: 100%;
+    }
+    .search {
         width: 100%;
     }
 }

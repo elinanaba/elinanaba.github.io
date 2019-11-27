@@ -184,14 +184,6 @@ p {
     color: #3a3a3a;
 }
 
-/*********************************************Main-clear***/
-
-.to-clear::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /*********************************************Modal***/
 
 .modal {
