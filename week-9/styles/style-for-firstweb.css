@@ -29,6 +29,17 @@ header {
     height: 170px;
 }
 
+.search[type=text] {
+    width: 20%;
+    float: right;
+    padding: 6px;
+    border:none;
+    border-bottom: 2px solid #000000;
+    margin-top: 8px;
+    margin-right: 4%;
+    font-size: 17px;
+}
+
 .hide-h1 {
     font-size: 10px; 
     position: absolute; 
