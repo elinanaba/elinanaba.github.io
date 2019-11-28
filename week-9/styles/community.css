@@ -163,10 +163,9 @@ td {
     padding: 3px;
 }
 
-
-
-
-
+.button-group {
+    margin-top: 15px;
+}
 
 /*********************************************Text-Styles***/
 
@@ -309,5 +308,8 @@ footer a:hover {
     }
     p {
         font-size: 1rem;
+    }
+    .button-group {
+        margin-top: 5px;
     }
 }
