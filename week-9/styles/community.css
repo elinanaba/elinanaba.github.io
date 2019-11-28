@@ -124,7 +124,7 @@ li a:focus {
 
 .deal-board {
     width: 75%;
-    height: 600px;
+    height: auto;
     margin-left: 20%;
     box-sizing: border-box; 
 }
