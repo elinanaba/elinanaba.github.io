@@ -133,7 +133,7 @@ li a:focus {
     font-family: 'Muli', sans-serif;;
     padding: 0 10px 15px 10px;
     color: #3a3a3a;
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #b1b1b1;
     margin: 0 0 15px 0;
 }
 
@@ -184,9 +184,11 @@ p {
 footer {
     text-align: center;
     padding: 50px 20px;
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #b1b1b1;
     margin-top: 50px;
-    width: 100%;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 20%;
 }
 
 footer a:link {
@@ -219,16 +221,13 @@ footer a:hover {
     header {
         height: auto;
     }
-
     .logo {
         width: 40%;
         padding: 0;
     }
-
     .logo-mani {
         margin-left: 24px;
     }
-    
     .sidenav {
         top:0;
         left: 0;
@@ -239,23 +238,19 @@ footer a:hover {
         margin: unset;
         font-size: 1.4rem;
     }
-
     .sidenav a {
         float: left;
     }
-
     ul {
         margin: unset;
         line-height: 0;
     }
-
     .deal-board {
         margin-left: unset;
         margin-right: unset;
         width: 100%;
         top: 24%;
     }
-
     .column {
         width: 100%;
         display: block;
@@ -264,6 +259,11 @@ footer a:hover {
     .search {
         width: 35%;
         margin: unset;
+        border-bottom: 2px solid #b1b1b1;
+    }
+    footer {
+        width: 100%;
+        margin-left: unset;
     }
   }
   
@@ -272,19 +272,15 @@ footer a:hover {
       text-align: center;
       float: none;
     }
-
     .search {
         width: 100%;
     }
-
     .board-name, .name {
         font-size: 1.8rem;
     }
-
     [class^="icon"] {
         width: 35px;
     }
-
     .card {
         background-size: 100% 14%;
     }

@@ -134,7 +134,7 @@ li a:focus {
     font-family: 'Muli', sans-serif;;
     padding: 0 10px 15px 10px;
     color: #3a3a3a;
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #b1b1b1;
     margin: 0 0 15px 0;
 }
 
@@ -329,9 +329,11 @@ p {
 footer {
     text-align: center;
     padding: 50px 20px;
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #b1b1b1;
     margin-top: 50px;
-    width: 100%;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 20%;
 }
 
 footer a:link {
@@ -415,7 +417,14 @@ footer a:hover {
     }
 
     .search {
-        margin:unset;
+        width: 35%;
+        margin: unset;
+        border-bottom: 2px solid #b1b1b1;
+    }
+
+    footer {
+        margin-left: unset;
+        width: 100%;
     }
   }
   
