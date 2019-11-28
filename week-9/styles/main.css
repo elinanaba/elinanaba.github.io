@@ -268,15 +268,6 @@ footer a:hover {
     color: #ffffff;
 }
 
-/*********************************************icon***/
-
-[class^="icon"] {
-    width: 50px;
-    position: relative;
-    top: 10px;
-    margin-right: 10px;
-}
-
 /*********************************************Media***/
 
 @media screen and (max-width: 700px) {
