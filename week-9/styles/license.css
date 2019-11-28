@@ -207,6 +207,11 @@ footer a:hover {
     .logo-mani {
         margin:unset;
     }
+    header::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
     .sidenav {
         top:0;
         left: 0;
@@ -216,7 +221,6 @@ footer a:hover {
         text-align: unset;
         margin: unset;
         font-size: 1.4rem;
-        clear: both;
     }
     .sidenav a {
         float: left;
