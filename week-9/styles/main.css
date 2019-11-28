@@ -288,12 +288,20 @@ footer a:hover {
     .logo {
         width: 40%;
         padding: 0;
+        float: left;
+        margin-bottom: 10px;
     }
-
+    .logo-deal {
+        float: left;
+    }
     .logo-mani {
-        margin-left: 24px;
+        margin:unset;
     }
-    
+    header::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
     .sidenav {
         top:0;
         left: 0;
@@ -351,7 +359,9 @@ footer a:hover {
       text-align: center;
       float: none;
     }
-
+    .logo {
+        margin-bottom: 5px;
+    }
     .search {
         width: 100%;
     }
