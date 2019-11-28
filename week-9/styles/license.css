@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); /*font-family: 'Muli', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap'); /*font-family: 'Questrial', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); /*font-family: 'Raleway', sans-serif;*/
+
+/*font-family: 'Nanum Myeongjo', serif;*/
+/*font-family: 'Nanum Gothic', sans-serif;*/
+
+
+html {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***********************************************Header*/
+
+header {
+    padding: 15px;
+    width: 100%;
+    height: 170px;
+}
+
+.search {
+    width: 20%;
+    float: right;
+    padding: 6px;
+    border:none;
+    margin-top: 8px;
+    margin-right: 4%;
+    font-size: 17px;
+    box-shadow: inset 0 2px 8px 0 #b1b1b1;
+}
+
+.search:focus {
+    outline:3px solid #e0f899;
+}
+
+.hide-h1 {
+    font-size: 10px; 
+    position: absolute; 
+    top: -9999px; 
+    left: -9999px;
+}
+
+/***********************************************Logo*/
+
+.logo {
+    width: 340px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.logo-deal {
+    width: 60%;
+    animation: deal 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 2; 
+}
+
+.logo-mani {
+    width: 40%;
+    margin-left: 50px;
+    animation: mani 2.2s;
+}
+
+@keyframes deal {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes mani {
+    0% { transform: translateX(-40px); opacity: 0;}
+    100% { transform: translateX(0); } 
+}
+
+/***********************************************Nav*/
+
+.sidenav {
+    top: 220px;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    text-align: right;
+    font-size: 2.5rem;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 45%;
+    padding-inline-start: 0;
+}
+
+li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a:hover {
+    background-color: rgb(215, 243, 54);
+    color: #000000;
+}
+
+li a:focus {
+    background-color: rrgb(215, 243, 54);
+    color: #000000;   
+}
+
+/*********************************************Board***/
+
+.deal-board {
+    width: 75%;
+    margin-left: 20%;
+    font-size: 2rem;
+    box-sizing: border-box; 
+}
+
+.board-name {
+    font-family: 'Muli', sans-serif;
+    padding: 0 10px 15px 10px;
+    color: #3a3a3a;
+    border-bottom: 1px solid #b1b1b1;
+    margin: 0 0 15px 0;
+}
+
+/*********************************************Text-Styles***/
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    color: #87a715;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+
+/*********************************************Footer***/
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    border-top: 1px solid #b1b1b1;
+    margin-top: 50px;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+footer a:link {
+    color: #d56000;
+    text-decoration-line: underline;
+}
+
+footer a:visited {
+    color: #633e20;
+}
+
+footer a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*********************************************icon***/
+
+[class^="icon"] {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+/*********************************************Media***/
+
+@media screen and (max-width: 700px) {
+    
+    header {
+        height: auto;
+    }
+
+    .logo {
+        width: 40%;
+        padding: 0;
+    }
+
+    .logo-mani {
+        margin-left: 24px;
+    }
+    
+    .sidenav {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        position: relative; /**/
+        text-align: unset;
+        margin: unset;
+        font-size: 1.4rem;
+    }
+    .sidenav a {
+        float: left;
+    }
+    
+    ul {
+        margin: unset;
+        line-height: 0;
+    }
+
+    .slideshow {
+        margin:0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-deals {
+        margin-left:unset;
+        margin-right:unset;
+        width: 100%;
+    }
+
+    .main-news {
+        width: 100%;
+    }
+
+    .dot-container {
+        margin-left: unset;
+        text-align: center;
+    }
+
+    .search {
+        width: 35%;
+        margin: unset;
+        border-bottom: 2px solid #b1b1b1;
+    }
+
+    footer {
+        margin-left: unset;
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+
+    .search {
+        width: 100%;
+    }
+}
