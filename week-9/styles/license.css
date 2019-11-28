@@ -138,6 +138,9 @@ li a:focus {
     font-weight: normal;
 }
 
+.content {
+    width: 100%;
+}
 /*********************************************Text-Styles***/
 
 h3 {
