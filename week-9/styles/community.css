@@ -141,15 +141,34 @@ li a:focus {
 
 /*********************************************Community***/
 
+.forum {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.forum-title {
+    width: 48%;
+}
+
+th {
+    background-color: rgb(227, 248, 110);
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+td {
+    background-color: #f7fee8;
+    font-size: 1.2rem;
+    padding: 3px;
+}
+
+
+
+
+
 
 /*********************************************Text-Styles***/
-
-.main-h2 {
-    padding: 0 10px 20px 10px;
-    font-size: 1.8rem;
-    font-weight: lighter;
-    border-bottom: 1px solid #3a3a3a;
-}
 
 p {
     font-family: 'Raleway', sans-serif;
@@ -241,6 +260,13 @@ footer a:hover {
     .board-name {
         font-size: 1.6rem;
         padding-bottom: 5px;
+    }
+    th,td {
+        font-size: 1rem;
+        overflow: hidden;
+    }
+    .forum-title {
+        width: 60%;
     }
     .search {
         margin:unset;

@@ -198,13 +198,6 @@ li a:focus {
 
 /*********************************************Text-Styles***/
 
-.main-h2 {
-    padding: 0 10px 20px 10px;
-    font-size: 1.8rem;
-    font-weight: lighter;
-    border-bottom: 1px solid #3a3a3a;
-}
-
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
