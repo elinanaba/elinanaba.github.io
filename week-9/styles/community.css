@@ -227,6 +227,10 @@ footer a:hover {
         width: 100%;
         top: 24%;
     }
+    .board-name {
+        font-size: 1.6rem;
+        padding-bottom: 5px;
+    }
     .search {
         margin:unset;
         width: 35%;
@@ -235,6 +239,10 @@ footer a:hover {
     footer {
         width: 100%;
         margin-left: unset;
+    }
+    [class^="icon"] {
+        width: 30px;
+        top: 5px;
     }
   }
   
@@ -246,10 +254,17 @@ footer a:hover {
     .search {
         width: 100%;
     }
-    .board-name, .name {
-        font-size: 1.8rem;
+    .board-name {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    .name {
+        padding: 5px 0 5px 7px;
+        font-size: 1.2rem;
     }
     [class^="icon"] {
-        width: 35px;
+        width: 20px;
+        top: 2px;
+        margin: 0 5px 0 5px;
     }
 }

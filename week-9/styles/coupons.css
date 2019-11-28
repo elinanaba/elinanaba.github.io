@@ -163,6 +163,7 @@ li a:focus {
     background-image: url("../images/gradient.jpg");
     background-size: 100% 30%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .card-name {
@@ -324,6 +325,13 @@ footer a:hover {
         width: 100%;
         top: 24%;
     }
+    .board-name {
+        font-size: 1.6rem;
+        padding-bottom: 5px;
+    }
+    .card-name {
+        font-size: 1.5rem;
+    }
     .column {
         width: 100%;
         display: block;
@@ -338,6 +346,10 @@ footer a:hover {
         width: 100%;
         margin-left: unset;
     }
+    [class^="icon"] {
+        width: 30px;
+        top: 5px;
+    }
   }
   
   @media screen and (max-width: 400px) {
@@ -348,10 +360,16 @@ footer a:hover {
     .search {
         width: 100%;
     }
-    .board-name, .card-name {
-        font-size: 1.8rem;
+    .board-name {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    .card-name {
+        font-size: 1.2rem;
     }
     [class^="icon"] {
-        width: 35px;
+        width: 20px;
+        top: 2px;
+        margin: 0 5px 0 5px;
     }
 }
