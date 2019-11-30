@@ -144,6 +144,8 @@ li a:focus {
 .gallery {
     box-shadow: 0 4px 8px 0 #b1b1b1;
     padding: 0 0 10px 0;
+    height: 460px;
+    position: relative;
 }
 
 .product-image {
@@ -154,7 +156,7 @@ li a:focus {
 .name {
     padding: 15px;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .desc {
@@ -165,19 +167,25 @@ li a:focus {
 }
 
 .price {
-    padding: 15px;
     text-align: right;
     font-size: 1.4rem;
     color: #c96507;
+    position: absolute;
+    bottom: 18%;
+    right: 10%;
 }
 
 .toLink {
-    margin: 15px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    position: absolute;
     padding: 10px 15px;
     font-size: 1.4rem;
     text-align: center;
     color: #3a3a3a;
     background-color: #faf325;
+    height: 8%;
 }
 
 .toLink:hover {
