@@ -172,16 +172,21 @@ li a:focus {
     padding: 16px;
     text-align: center;
     background-image: url("../images/gradient.jpg");
-    background-size: 100% 30%;
+    background-size: 100% 28%;
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
 }
 
 .card-name {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    height: 10%;
     margin-bottom: 50px;
     margin-top: 15px;
+}
+
+.description {
+    font-size: 1.2rem;
 }
 
 .click-to-open {
