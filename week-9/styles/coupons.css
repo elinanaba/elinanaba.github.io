@@ -168,18 +168,29 @@ li a:focus {
 
 .card {
     box-shadow: 0 4px 8px 0 #b1b1b1;
+    height: 300px;
     padding: 16px;
     text-align: center;
     background-image: url("../images/gradient.jpg");
     background-size: 100% 30%;
     background-repeat: no-repeat;
     overflow: hidden;
+    position: relative;
 }
 
 .card-name {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 50px;
     margin-top: 15px;
+}
+
+.click-to-open {
+    position: absolute;
+    bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+    left: 28%;
 }
 
 .coupon-type {
@@ -359,6 +370,9 @@ footer a:hover {
     .board-name {
         font-size: 1.6rem;
         padding-bottom: 5px;
+    }
+    .card {
+        background-size: 100% 25%;
     }
     .card-name {
         font-size: 1.5rem;
