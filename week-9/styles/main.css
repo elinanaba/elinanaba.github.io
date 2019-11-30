@@ -379,6 +379,9 @@ footer a:hover {
     .logo {
         margin-bottom: 5px;
     }
+    .sidanav {
+        font-size: 0.8rem;
+    }
     .sidenav a {
         padding: 14px 5px;
     }
