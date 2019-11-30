@@ -57,20 +57,25 @@ h2 {
 }
 
 h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #25405a;
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom: 2px dotted #c0c0c0;
 }
 
-.small-dt {
+h4 {
     font-size: 1.2rem;
-    padding: 10px 0;
-    font-weight: bold;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.small-dd {
-    padding-right: 10px;
+
+h5 {
+    font-size: 1.2rem;
+    color: #25405a;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px dashed #4E5258;
 }
 
 .bigbox {
@@ -108,6 +113,19 @@ p {
     font-size: 18px;
 }
 
+.secondS {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+}
+
+.thirdS {
+    margin: 0 auto;
+    padding: 50px;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
 .textColor {
     color: #146381;
 }
@@ -132,6 +150,21 @@ p {
     width: 50px;
 }
 
+.iconGroup {
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    /* if I use display: inline-block in the subordinator,
+    * then I have to use text-align to put in center
+    * But If I add display: flex; to set same height, It didn't work
+    * Then I have to add justify-content: center;
+    */
+}
+
 figure {
     width: 15%;
     text-align: center;
@@ -148,23 +181,57 @@ figcaption {
 }
 
 table {
-    width: 100%;
+    width: 850px;
     margin: 20px;
-    margin-left: -20px;
     padding: 0;
-    border-collapse: collapse;
-}
-.tfs {
-    font-size: 1rem;
-}
-th, td {
-    padding: 10px;
-    max-width: 100%;
-    border: 1px solid #303030;
 }
 
-th {
-    background-color: #e1ebdd;
+td {
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+}
+
+.t1 {
+    color: #ffffff;
+    background-color: #4E5258;
+}
+.t2 {
+    color: #4E5258;
+    background-color: #E3DAAA;
+}
+.t3 {
+    color: rgb(0, 0, 0);
+    background-color: #5FBA9C;
+}
+.t4 {
+    color: rgb(0, 0, 0);
+    background-color: #179A6F;
+}
+.t5 {
+    color: #000000;
+    background-color: #F8545A;
+}
+
+.t6 {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tag {
+    margin: 20px;
+    padding: 10px 10px 10px 40px;
+    line-height: 2;
+    color: #4E5258;
+    background-color: #E3DAAA;
+    display: flex;
+}
+
+.designPreview {
+    width: 100%;
+}
+.designPreview:hover {
+    content: url("../images/mockupwithgrid.jpg");
 }
 
 ol, ul {
@@ -189,7 +256,7 @@ dd {
 
 footer {
     text-align: center;
-    color: #ffffff;
+    color: #292929;
     padding: 1rem;
     font-family:  'Open Sans', sans-serif;
     margin-top: 40px;
