@@ -29,13 +29,22 @@ header {
     height: 170px;
 }
 
+label {
+    padding: 12px;
+    display: inline-block;
+    text-align: right;
+}
+
 .search {
-    width: 20%;
     float: right;
-    padding: 6px;
-    border:none;
     margin-top: 8px;
     margin-right: 4%;
+}
+
+.search-bar {
+    width: 70%;
+    padding: 6px;
+    border:none;
     font-size: 17px;
     box-shadow: inset 0 2px 8px 0 #b1b1b1;
 }
@@ -329,9 +338,15 @@ footer a:hover {
         margin: 6px 0;
     }
     .search {
-        margin:unset;
-        width: 35%;
-        border-bottom: 2px solid #b1b1b1;
+        width: 100%;
+        margin: unset;
+        border-bottom: 1px solid #b1b1b1;
+    }
+    .search-bar {
+        box-shadow: none;
+    }
+    label {
+        text-align: unset;
     }
     footer {
         width: 100%;
@@ -353,8 +368,8 @@ footer a:hover {
     .sidenav a {
         padding: 14px 10px;
     }
-    .search {
-        width: 100%;
+    .search-bar {
+        width: 70%;
     }
     .board-name {
         font-size: 1.4rem;
