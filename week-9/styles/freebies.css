@@ -323,10 +323,11 @@ footer a:hover {
     }
     .search-bar {
         width: 70%;
+        font-size: 1rem;
     }
     .board-name {
         font-size: 1.4rem;
-        padding: 0;
+        padding: 1%;
     }
     .name {
         padding: 5px 0 5px 7px;

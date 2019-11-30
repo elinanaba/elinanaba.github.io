@@ -398,10 +398,11 @@ footer a:hover {
     }
     .search-bar {
         width: 70%;
+        font-size: 1rem;
     }
     .board-name {
         font-size: 1.4rem;
-        padding: 0;
+        padding: 1%;
     }
     .card-name {
         font-size: 1.2rem;

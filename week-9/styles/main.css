@@ -389,5 +389,6 @@ footer a:hover {
     }
     .search-bar {
         width: 70%;
+        font-size: 1rem;
     }
 }

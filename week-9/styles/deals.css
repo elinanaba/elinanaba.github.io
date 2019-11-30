@@ -196,6 +196,7 @@ li a:focus {
     background-color: #faf325;
     height: 8%;
     bottom: 5%;
+    overflow: hidden;
 }
 
 .toLink:hover {
@@ -370,13 +371,17 @@ footer a:hover {
     }
     .search-bar {
         width: 70%;
+        font-size: 1rem;
     }
     .board-name {
         font-size: 1.4rem;
-        padding: 0;
+        padding: 1%;
     }
     .name, .toLink {
         font-size: 1.2rem;
+    }
+    .toLink {
+        padding: 8px 15px;
     }
     [class^="icon"] {
         width: 20px;
