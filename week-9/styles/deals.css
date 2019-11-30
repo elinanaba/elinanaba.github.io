@@ -163,15 +163,18 @@ li a:focus {
 
 .name {
     padding: 15px;
+    height: 18%;
     text-align: center;
     font-size: 1.4rem;
 }
 
 .desc {
     padding: 15px;
+    height: 20%;
     text-align: center;
     font-size: 1.2rem;
     color: #3a3a3a;
+    display: block;
 }
 
 .price {
@@ -179,6 +182,7 @@ li a:focus {
     font-size: 1.4rem;
     color: #c96507;
     position: absolute;
+    display: block;
     bottom: 18%;
     right: 10%;
 }
@@ -378,6 +382,12 @@ footer a:hover {
     }
     .name, .toLink {
         font-size: 1.2rem;
+    }
+    .name {
+        height: 10%;
+    }
+    .desc {
+        height: 15%;
     }
     .toLink {
         padding: 8px 15px;
