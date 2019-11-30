@@ -283,8 +283,8 @@ footer a:hover {
 [class^="icon"] {
     width: 30px;
     position: relative;
-    top: 6px;
-    margin-right: 10px;
+    top: 8px;
+    margin-right: 5px;
 }
 
 .icon-coupons {
