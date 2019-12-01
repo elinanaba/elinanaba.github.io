@@ -332,6 +332,8 @@ footer a:hover {
     }
     .sidenav a {
         padding: 14px 5px;
+        width: 25%;
+        text-align: center;
     }
     #search-bar {
         width: 70%;
