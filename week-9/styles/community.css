@@ -169,6 +169,17 @@ td {
     padding: 3px;
 }
 
+.forum-title {
+    width: 60%;
+}
+.num {
+    width: 5%;
+}
+.name, .date {
+    width: 10%;
+}
+
+
 .button-group {
     margin-top: 15px;
 }
