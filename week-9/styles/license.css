@@ -176,12 +176,12 @@ footer {
     margin-left: 20%;
 }
 
-footer a:link {
+p a:link, footer a:link {
     color: #572903;
     text-decoration-line: underline;
 }
 
-footer a:visited {
+p a:visited, footer a:visited {
     color: #1b472e;
 }
 
