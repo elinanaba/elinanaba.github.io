@@ -379,11 +379,13 @@ footer a:hover {
     .logo {
         margin-bottom: 5px;
     }
+    li {
+        font-size: 0.8rem;
+    }
     li a{
         padding: 10px;
         width: 25%;
         text-align: center;
-        font-size: 0.8rem;
     }
     #toTop {
         font-size: 1rem;
