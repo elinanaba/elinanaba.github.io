@@ -330,8 +330,8 @@ footer a:hover {
     li {
         font-size: 0.8rem;
     }
-    .sidenav a {
-        padding: 14px 5px;
+    li a{
+        padding: 10px;
         width: 25%;
         text-align: center;
         font-size: 0.8rem;
