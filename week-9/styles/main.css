@@ -40,7 +40,7 @@ label {
     margin-right: 4%;
 }
 
-.search-bar {
+#search-bar {
     width: 70%;
     padding: 6px;
     border:none;
@@ -362,7 +362,7 @@ footer a:hover {
         margin: unset;
         border-bottom: 1px solid #b1b1b1;
     }
-    .search-bar {
+    #search-bar {
         box-shadow: none;
     }
     label {
@@ -389,7 +389,7 @@ footer a:hover {
         font-size: 1rem;
         padding: 10px;
     }
-    .search-bar {
+    #search-bar {
         width: 70%;
         font-size: 1rem;
     }
