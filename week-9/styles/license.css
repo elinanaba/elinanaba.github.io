@@ -294,6 +294,7 @@ footer a:hover {
     }
     li {
         font-size: 0.8rem;
+        padding: 10px;
     }
     li a{
         padding: 10px;
