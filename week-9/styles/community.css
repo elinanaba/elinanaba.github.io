@@ -58,6 +58,11 @@ label {
     left: -9999px;
 }
 
+.board-desc {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
 /***********************************************Logo*/
 
 .logo {
