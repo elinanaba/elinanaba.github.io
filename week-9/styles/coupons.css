@@ -202,7 +202,11 @@ li a:focus {
 }
 .promocode {
     color: #2e610e;
+    margin: 20px 10px 10px 10px;
     font-weight: 900;
+}
+.modal-desc {
+    font-size: 1.2rem;
 }
 
 p {
@@ -229,7 +233,7 @@ p {
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
 }
 
 .close, .close2 {
@@ -412,7 +416,6 @@ footer a:hover {
     }
     li {
         font-size: 0.8rem;
-        padding: 10px;
     }
     li a{
         padding: 10px;
